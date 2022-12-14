@@ -1,4 +1,4 @@
-# Movie Avaliate
+#Playlist
 
 ## Playlist
 ![alt text](frontend/src/assets/playlist.png)
