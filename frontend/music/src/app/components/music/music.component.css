@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.example-card {
+ width: 750px;
+ background-color: #1DB954;
+
+  }
+.add{
+    width: 50%;
+    background-color: #1db954;
+	color: rgb(0, 0, 0);
+	border-style: outset;
+	border-color: #0066A2;
+	height: 100%;
+    
+	font: arial,sans-serif;
+	text-shadow: aliceblue;
+} 
+.add:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+} 
+button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+} 
+button{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+	color: #1DB954;;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;   
+	font: arial,sans-serif;
+	text-shadow: aliceblue;
+
+}

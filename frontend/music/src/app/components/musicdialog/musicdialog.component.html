@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Add music in playlist</h1>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Name this music</mat-label>
+    <input matInput [(ngModel)]="data.title">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Name Artist</mat-label>
+    <input matInput [(ngModel)]="data.artist">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Link</mat-label>
+    <input matInput [(ngModel)]="data.link">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Add</button>
+</div>
