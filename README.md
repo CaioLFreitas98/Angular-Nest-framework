@@ -1,7 +1,7 @@
 #Playlist
 
 ## Playlist
-![alt text](frontend/src/assets/playlist.png)
+(frontend/src/assets/playlist.png)
 
 
 
